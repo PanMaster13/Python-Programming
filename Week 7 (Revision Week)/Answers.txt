@@ -1,0 +1,71 @@
+Revision 2:
+
+a)
+9
+19
+30
+42
+55
+69
+84
+100
+117
+
+b)
+22.5
+48.75
+78.75
+112.5
+150.0
+191.25
+
+c)
+42
+79
+113
+144
+172
+197
+
+d)
+6
+9
+13.5
+20.25
+30.375
+
+e)
+12
+21.6
+38.88
+
+f)
+Total: 84.48
+Average: 42.24
+
+Revision 3
+a) 
+num*2* = *(int*input("Enter second number:")*)*
+num1 = *(int*input("Enter first number:")*)*
+print("Average:", *(*num1 + num2*)*/2)
+
+b)
+n = *name.upper()*
+print(*n*)
+
+c)
+import *random*
+num1 = random.randint(1*,*6)
+num2 = *rand.*range(6)+1
+print("Number 1:", *num1*)
+print("Number 2:", *num2*)
+
+d)
+a = *int*(input("Enter a number:"))
+if (a*>*10):
+
+e)
+snumber = *[]*
+number = input("Please enter numbers:").*split*(",")
+while i<*len*(snumber):
+total += *int*(snumber[i])

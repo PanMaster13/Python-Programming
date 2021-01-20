@@ -1,0 +1,73 @@
+Revision(1)
+1. 2
+2. [2,2,3],[2,2,3],[2,2,3]
+3. 1, 3, 3
+
+Revision(2)
+1. hon Re
+2. tori
+3. hon Retori
+4. 4 615
+
+Revision(3)
+1. 44.0, 46.0, 48.0, 50.0, 33.0
+2. Numbers inside the loop: 66, Numbers inside the loop: 68, Numbers inside the loop: 70, Average: 23.33333
+3. 15.0, 87.0, 123.0, Average: 20.5
+
+Revision(4)
+(WHILE LOOP)
+while IValue >= EValue:
+	print(IValue)
+	IValue -=Dvalue
+
+(FOR LOOP)
+for i in range(IValue, EValue, DValue):
+	print(i)
+
+
+Revision(5)
+a) def addition(n1, n2):
+	ans = n1 + n2
+	return ans
+   
+   def subtraction(n1, n2):
+   	ans = n1 - n2
+	return ans
+
+   def multiplication(n1, n2):
+	ans = n1 * n2
+	return ans
+
+   def division(n1, n2):
+	ans = n1/n2
+	return ans
+
+b) selection == " "
+   
+   while selection !="5":
+	n1 = int(input("First Number:"))
+   	n2 = int(input("Second Number:"))
+	option()
+	selection = input("Selection:")
+   	if selection == "1":
+		ans = addition(n1, n2)
+		print("Answer:", ans)
+	
+	elif selection == "2":
+		ans = subtraction(n1, n2)
+		print("Answer:", ans)
+
+	elif selection == "3":
+		ans = multiplication(n1, n2)
+		print("Answer:", ans)
+
+	elif selection == "4":
+		ans = division(n1, n2)
+		print("Answer:", ans)
+
+	elif selection == "5":
+		print("Thank you")
+
+	else:
+		print("Wrong input, please try again.")
+
